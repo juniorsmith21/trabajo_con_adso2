@@ -47,7 +47,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-        // Retrofit: hace las peticiones HTTP por nosotros
+        // Retrofit: hace las peticiones HTTP por nosotros //cambio
         implementation("com.squareup.retrofit2:retrofit:2.11.0")
         // Gson: convierte el JSON del servidor en objetos Kotlin
         implementation("com.squareup.retrofit2:converter-gson:2.11.0") //er
