@@ -5,5 +5,5 @@ data class UserResponse(
     val username: String,
     val email: String,
     val firstName: String,
-    val lastName: String
+    val lastName: String// yimi trabajo aqui
 )
