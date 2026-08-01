@@ -51,7 +51,7 @@ dependencies {
         // Retrofit: hace las peticiones HTTP por nosotros
         implementation("com.squareup.retrofit2:retrofit:2.11.0")
         // Gson: convierte el JSON del servidor en objetos Kotlin
-        implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+        implementation("com.squareup.retrofit2:converter-gson:2.11.0") //er
         // OkHttp + logging: motor de red y registro para depurar
         implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
         // Corrutinas: para no congelar la app mientras se espera la red
