@@ -47,7 +47,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    dependencies {
         // Retrofit: hace las peticiones HTTP por nosotros
         implementation("com.squareup.retrofit2:retrofit:2.11.0")
         // Gson: convierte el JSON del servidor en objetos Kotlin
@@ -57,4 +56,4 @@ dependencies {
         // Corrutinas: para no congelar la app mientras se espera la red
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
     }
-}
+
